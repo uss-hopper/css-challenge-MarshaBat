@@ -80,12 +80,11 @@ header div {
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
+	align-items: center;
 }
 
 em {
-	padding-top: 2em;
 	margin-left: 2em;
-
 }
 
 
@@ -122,6 +121,7 @@ tr {
 
 
 /*******FORM SECTION*******/
+
 
 form {
 	width: 350px;
