@@ -62,16 +62,33 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+/*******MARGINS FOR ALL CONTAINERS*******/
 .container {
 	margin: 0 auto;
 	width: 1000px;
 }
+
+/*******NAME HEADER*******/
 header {
 	color: #00ff00;
 	background-color: #333333;
-	padding: 1em;
+	padding: 0.5em;
 	width: 100%;
 }
+
+header div {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+
+em {
+	padding-top: 2em;
+	margin-left: 2em;
+
+}
+
+
 
 .container img {
 	display: block;
@@ -102,6 +119,28 @@ th, td {
 tr {
 	background-color: #333;
 }
+
+
+/*******FORM SECTION*******/
+
+form {
+	width: 350px;
+}
+
+input {
+	width: 100%;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+	color: #00ff00;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-top: 100px;
+}
+
 
 
 
